@@ -15,6 +15,9 @@ const Projects = () => {
 					<h2 className="">
 						Country Guide Website
 					</h2>
+					<p className="">
+						Description
+					</p>
 					<button className="">
 						<a href="https://github.com/HarikrishnanYPR1707" target="_blank">
 							View This Website
