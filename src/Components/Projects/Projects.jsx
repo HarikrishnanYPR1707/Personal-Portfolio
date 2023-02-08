@@ -11,19 +11,19 @@ const Projects = () => {
 					{/* <div className="">
 						<img src="" alt="Logo-Project-1" className="" />
 					</div> */}
-					{/* <div className=""> */}
-					<h2 className="">
-						Country Guide Website
-					</h2>
-					<p className="">
-						Description
-					</p>
-					<button className="">
-						<a href="https://github.com/HarikrishnanYPR1707" target="_blank">
-							View This Website
-						</a>
-					</button>
-					{/* </div> */}
+					<div className="">
+						<h2 className="font-swad text-white text-2xl">
+							Country Guide Website
+						</h2>
+						<p className="">
+							Description
+						</p>
+						<button className="">
+							<a href="https://github.com/HarikrishnanYPR1707" target="_blank">
+								View This Website
+							</a>
+						</button>
+					</div>
 				</div>
 			</div>
 		</section>
