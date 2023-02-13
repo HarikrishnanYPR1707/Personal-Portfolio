@@ -12,7 +12,10 @@ const Navbar = () => {
 					{/* <BsFillMoonStarsFill className="text-white" /> */}
 				</li>
 				<li>
-					<a className="font-swad text-xl text-black bg-[#a6f8db] px-4 py-2 ml-6 rounded-lg" href="">Resume</a>
+					<a className="font-swad text-xl text-black bg-[#a6f8db] px-4 py-2 ml-6 rounded-lg" href="#">Mail Me</a>
+				</li>
+				<li>
+					<a className="font-swad text-xl text-black bg-[#a6f8db] px-4 py-2 ml-6 rounded-lg" href="#">Resume</a>
 				</li>
 			</ul>
 		</nav>
