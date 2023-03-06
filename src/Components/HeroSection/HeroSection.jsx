@@ -10,6 +10,7 @@ const HeroSection = () => {
 		<section className="p-6 m-5 bg-[#282828] rounded-lg flex flex-col justify-center items-center md:w-5/6 md:mx-auto lg:w-5/6 lg:mx-auto lg:p-10 lg:flex-row lg:justify-evenly lg:items-center ">
 			<div className="w-80 h-80">
 				<img src={myImage} alt="My image" className="rounded-full drop-shadow-2xl" />
+				{/* <div className="absolute w-80 h-80 rounded-full bg-teal-600 bg-opacity-50 -translate-y-full"></div> */}
 			</div>
 			<div className="mt-4 flex flex-col justify-center items-center lg:mt-0 lg:w-3/6">
 				<h2 className="text-5xl text-white font-swad lg:text-6xl">
