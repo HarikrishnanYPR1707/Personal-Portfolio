@@ -18,8 +18,7 @@ const Skills = () => {
 			<h1 className="text-white text-center font-swad text-5xl uppercase">
 				Skills
 			</h1>
-			{/* flex flex-wrap justify-center items-center */}
-			<div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 odd:text-red-900 even:text-red-500">
+			<div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
 				<div className="p-1 m-2 text-white flex flex-col justify-center items-center lg:m-4 lg:hover:scale-110 lg:ease-in-out lg:duration-300">
 					<img src={c} alt="C" />
 					<p>
