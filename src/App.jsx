@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection/HeroSection';
 import Skills from './Components/Skills/Skills';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
+import WorkWithMe from './Components/WorkWithMe/WorkWithMe';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
 			<Skills />
 			<Projects />
 			{/* <Testimonial /> */}
-			{/* <WorkWithMe /> */}
+			<WorkWithMe />
 		</>
 	)
 }
