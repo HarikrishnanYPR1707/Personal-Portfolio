@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillArrowRightCircleFill } from 'react-icons/Bs'
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const card = ({ name, desc, link }) => {
     return (
@@ -8,7 +8,7 @@ const card = ({ name, desc, link }) => {
 						<img src="" alt="Logo-Project-1" className="" />
 					</div> */}
             <div className=" px-3 py-5 bg-[#343434] mb-5 rounded-lg drop-shadow-lg flex flex-col justify-center items-center">
-                <h2 className="text-[#a00d20] font-robotoMono text-2xl text-center uppercase underline underline-offset-4 md:text-xl">
+                <h2 className="text-[#a6f8db] font-robotoMono text-2xl text-center uppercase underline underline-offset-4 md:text-xl">
                     {name}
                 </h2>
                 <p className="mt-1 text-white text-sm text-center">
