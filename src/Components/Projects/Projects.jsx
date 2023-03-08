@@ -11,6 +11,7 @@ const Projects = () => {
 				<Card name="Country Guide Website" desc="This is a website where you can see the basic detail of any country you can think of." link="https://cguide.netlify.app/" />
 				<Card name="QRCode Generator Website" desc="This is a website which can be used for generating qrcode of any links with various sizes." link="https://hqrgenerator.netlify.app/" />
 				<Card name="GitHub CheatSheet Website" desc="This is a website which can be used to refer the GitHub and Git Bash Terminal Commands." link="https://git-cheat-sheet.vercel.app/" />
+				<Card name="Password Generator" desc="As the name suggests this is a website which can be used to generate passwords." link="https://password-generator-h17.netlify.app/" />
 			</div>
 		</section>
 	)
