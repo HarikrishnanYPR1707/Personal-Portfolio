@@ -7,17 +7,17 @@ const Navbar = () => {
 			<h1 className="font-swad text-xl text-white lg:pl-12">
 				_hari__1707
 			</h1>
-			{/* <ul className="flex items-center lg:pr-12">
-				<li className="cursor-pointer text-2xl">
-					<BsFillMoonStarsFill className="text-white" />
-				</li>
+			<ul className="flex items-center lg:pr-12">
+				{/* <li className="cursor-pointer text-2xl">
+					<BsFillMoonStarsFill className="text-[#a6f8db]" />
+				</li> */}
 				<li>
-					<a href="mailto:hyprgd2002@gmail.com" className="font-swad text-xl text-black bg-[#a6f8db] px-4 py-2 ml-6 rounded-lg" target="_blank">Mail Me</a>
+					{/* <a href="mailto:hyprgd2002@gmail.com" className="font-swad text-xl text-black bg-[#a6f8db] px-4 py-2 ml-6 rounded-lg" target="_blank">Mail Me</a> */}
 				</li>
 				<li>
 					<a className="font-swad text-xl text-black bg-[#a6f8db] px-4 py-2 ml-6 rounded-lg" href="#">Resume</a>
 				</li>
-			</ul> */}
+			</ul>
 		</nav>
 	)
 }
