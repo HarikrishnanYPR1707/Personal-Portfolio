@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import workWithMeSvg from '../../assets/workwithme.svg';
 
@@ -11,7 +11,21 @@ const WorkWithMe = () => {
     const [message, setMessage] = useState("");
 
     const submitInfo = () => {
+        console.log(to_name + from_name + message);
 
+        const emailContent = {
+            to_name : to_name,
+            from_name : from_name,
+            message : message
+        };
+
+
+        emailjs.send('service_rfdbcpf', 'template_j2710cq', emailContent, 'U4XgEU2J8pLlsjzlc')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     }
 
     return (
@@ -24,10 +38,10 @@ const WorkWithMe = () => {
                     <img src={workWithMeSvg} alt="workWithMeSvg" className="w-72 mb-5" />
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                    <input type="text" id="input-1" className="bg-[#282828] text-white w-[350px] py-2 pl-5 mb-5 rounded-lg border-b-2 border-[#a6f8db] outline-none" placeholder="Enter your Name" onChange={(event) => {setTo_Name(event.target.value)}} required />
-                    <input type="email" id="input-2" className="bg-[#282828] text-white w-[350px] py-2 pl-5 mb-5 rounded-lg border-b-2 border-[#a6f8db] outline-none" placeholder="Enter your Email" onChange={(event) => {setFrom_Email(event.target.value)}} required />
-                    <textarea name="" cols="30" rows="4" id="input-3" className="bg-[#282828] text-white w-[350px] py-2 pl-5 mb-5 rounded-lg border-b-2 border-[#a6f8db] outline-none" placeholder="Enter your Message" onChange={(event) => {setMessage(event.target.value)}} required />
-                    <input type="submit" className="px-10 py-2 bg-[#a6f8db] rounded-md" onClick={submitInfo}/>
+                    <input type="text" id="input-1" className="bg-[#282828] text-white w-[350px] py-2 pl-5 mb-5 rounded-lg border-b-2 border-[#a6f8db] outline-none" placeholder="Enter your Name" onChange={(event) => { setTo_Name(event.target.value) }} required />
+                    <input type="email" id="input-2" className="bg-[#282828] text-white w-[350px] py-2 pl-5 mb-5 rounded-lg border-b-2 border-[#a6f8db] outline-none" placeholder="Enter your Email" onChange={(event) => { setFrom_Name(event.target.value) }} required />
+                    <textarea name="" cols="30" rows="4" id="input-3" className="bg-[#282828] text-white w-[350px] py-2 pl-5 mb-5 rounded-lg border-b-2 border-[#a6f8db] outline-none" placeholder="Enter your Message" onChange={(event) => { setMessage(event.target.value) }} required />
+                    <input type="submit" className="px-10 py-2 bg-[#a6f8db] rounded-md" onClick={submitInfo} />
                 </div>
             </div>
         </section>
