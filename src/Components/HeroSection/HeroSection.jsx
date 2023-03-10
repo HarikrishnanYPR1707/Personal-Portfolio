@@ -20,7 +20,7 @@ const HeroSection = () => {
 					Prasannakumar
 				</h2>
 				<p className="text-center text-white text-sm font-robotoMono md:text-base lg:text-lg">
-					Frontend Developer | UI Designer | Content Creator | Student | Engineer
+					React Developer | Frontend Developer | UI Designer | Content Creator | Student | Engineer
 				</p>
 				<div className="mt-4">
 					<button className="mx-2 px-5 py-1 bg-[#a6f8db] rounded-lg lg:hover:scale-110 lg:ease-in-out lg:duration-300">
